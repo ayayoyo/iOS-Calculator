@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg" translatesAutoresizingMaskIntoConstraints="NO" id="BG1-bX-qzG">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchground" translatesAutoresizingMaskIntoConstraints="NO" id="e5g-3J-4jN">
+                    <rect key="frame" x="0.0" y="344" width="480" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="UNz-u0-Bgr"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="HDU-Re-DYH">
+                    <rect key="frame" x="44" y="40" width="393" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="JvY-lH-Ckm"/>
+                        <constraint firstAttribute="width" constant="393" id="QOO-NM-BUo"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="XQ0-7d-Ozl">
+                    <rect key="frame" x="72" y="103" width="287" height="201"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="201" id="h0S-VJ-zOL"/>
+                        <constraint firstAttribute="width" constant="287" id="qzC-rA-bJy"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="HDU-Re-DYH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="DJl-zS-VCA"/>
+                <constraint firstAttribute="trailing" secondItem="BG1-bX-qzG" secondAttribute="trailing" id="ICe-Lc-h8b"/>
+                <constraint firstAttribute="trailing" secondItem="e5g-3J-4jN" secondAttribute="trailing" id="Mrw-Ua-oM2"/>
+                <constraint firstItem="BG1-bX-qzG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="TeF-lv-rxY"/>
+                <constraint firstItem="XQ0-7d-Ozl" firstAttribute="top" secondItem="HDU-Re-DYH" secondAttribute="bottom" constant="12" id="VBB-Nq-s0j"/>
+                <constraint firstItem="BG1-bX-qzG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bnn-gj-naz"/>
+                <constraint firstAttribute="bottom" secondItem="BG1-bX-qzG" secondAttribute="bottom" id="gaU-jj-uwm"/>
+                <constraint firstAttribute="bottom" secondItem="e5g-3J-4jN" secondAttribute="bottom" constant="8" id="idi-Fe-0Uv"/>
+                <constraint firstItem="e5g-3J-4jN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nlY-9i-3ZW"/>
+                <constraint firstAttribute="centerX" secondItem="HDU-Re-DYH" secondAttribute="centerX" id="veX-nW-UoM"/>
+                <constraint firstAttribute="centerX" secondItem="XQ0-7d-Ozl" secondAttribute="centerX" id="wLL-yT-o1G"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Retro-Calc" width="755" height="111"/>
+        <image name="launchbg" width="1433" height="957"/>
+        <image name="launchground" width="999" height="225"/>
+        <image name="robot" width="786" height="402"/>
+    </resources>
+</document>
